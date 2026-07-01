@@ -56,7 +56,10 @@ import universeCover from "../../content/ai-projects/universe-fragment/images/co
 import universeHighlight01 from "../../content/ai-projects/universe-fragment/images/highlight01.png";
 import universeHighlight02 from "../../content/ai-projects/universe-fragment/images/highlight02.png";
 import universeHighlight03 from "../../content/ai-projects/universe-fragment/images/highlight03.png";
-import universeDemoMp4 from "../../content/ai-projects/universe-fragment/videos/Universe Fragment.mp4";
+// Universe Fragment demo video is loaded at runtime from raw.github.com
+// to stay within Cloudflare Pages' 25 MB per-file limit
+const universeDemoMp4 =
+  "https://raw.githubusercontent.com/Gilliancc/portfolio-web/main/src/content/ai-projects/universe-fragment/videos/Universe%20Fragment.mp4";
 
 // ─── Project Asset Maps ──────────────────────────────────────────────────
 
